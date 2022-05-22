@@ -23,18 +23,27 @@
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
-    padding-top: 10px;
+    padding-top: 5px;
     display: flex;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 20px;
-    line-height: 150%;
+    line-height: 160%;
+}
+
+.content p {
+    padding: 10px;
 }
 
 .footer {
+    display: flex;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 15px;
     background-color: antiquewhite;
     padding: 20px;
+}
+
+body {
+    background-color: snow;
 }
 
 ul {
@@ -63,6 +72,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    color: dimgrey;
+}
+
 img {
     padding: 10px;
     padding-left: 40px;
@@ -70,6 +83,13 @@ img {
 }
 
 button:hover {
-    background-color: azure;
+    background-color: lightcyan;
 }
 
+hr {
+    height: 3px;
+    background-color: saddlebrown;
+    border: 0;
+    width:10%;
+    margin: 0 auto;
+}
