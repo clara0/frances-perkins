@@ -40,11 +40,36 @@
             female presidential cabinet member, the holiday would take place on March 4th, the day she was sworn into
             office.
         </p>
+        <div class="slideImg">
+            <img src="https://www.aauw.org/app/uploads/2020/04/Frances-Perkins_400x400_acf_cropped.jpg">
+        </div>
+        <div class="slideImg">
+            <img src="https://cdn.cityandstateny.com/media/img/cd/2021/06/29/Frances_Perkins_AP_Shutterstock/open-graph.jpg">
+        </div>
+        <div class="slideImg">
+            <img src="https://cdn.govexec.com/media/img/cd/2022/03/17/GettyImages_515129012/open-graph.jpg">
+        </div>
+        <script>
+            let slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("slideImg");
+                for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+             }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1;}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 3000);
+            }
+        </script>
     </div>
 
     <!--About Frances Perkins-->
     <br id="frances-perkins">
-    <h2 class="subtitle">Who was Frances Perkins?</h2>
+    <h2 class="subtitle" style="text-align:right;">Who was Frances Perkins?</h2>
     <div class="content">
         <img src="https://exhibitions.ushmm.org/storage/450/04696-800x1100.jpg" style="width:20%;height:19%;">
         <p style="background-color:lightcyan">
@@ -55,8 +80,6 @@
             Throughout her career, she fought to end child labor and improve insurance for the unemployed. She also
             helped develop a social security policy to provide retired people with an income.
         </p>
-<!--        <img src="https://newyorkalmanack.com/wp-content/uploads/2014/03/Frances-Perkins-meets-with-Carnegie-Steel-Workers-in-1933.jpg"-->
-<!--             style="width:25%;height:25%">-->
     </div>
 
     <!--Her achievements with reforms-->
@@ -82,7 +105,7 @@
 
     <!--Her impact on the US today-->
     <br id="impact">
-    <h2 class="subtitle">Her Impact on Work Today</h2>
+    <h2 class="subtitle" style="text-align:right;">Her Impact on Work Today</h2>
     <div class="content">
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/%22Child_Labor_Standards%22_-_NARA_-_514051.jpg"
         style="width:275px;height:auto;">
@@ -92,7 +115,7 @@
             cabinet has paved the way for more women to enter politics and other fields of study previously believed
             only men could undertake. The reforms she lobbied for, such as a maximum number of hours one can work
             without overtime pay, a shortened number of hours one can work, and improved working conditions greatly
-            enhanced worker’s livelihoods. The Fair Labor Standards Act established a minimum wage that still exists
+            enhanced workers' livelihoods. The Fair Labor Standards Act established a minimum wage that still exists
             today, so even those who work menial jobs still make enough to earn a living. It also set a maximum work
             week of forty hours, which is still in use today and there is still a minimum working age today. The Social
             Security Act enables those who are retired and unable to work to earn enough money to continue living
